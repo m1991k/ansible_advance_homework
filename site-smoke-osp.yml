@@ -9,6 +9,12 @@
     tags:
       - osp.smoke
 
+  - name: debug openstack_info
+    debug:
+      var: openstack_info
+    tags:
+      - osp.smoke
+
   - name: Curl website
     uri:
       url: "http://{{item.public_v4}}"
@@ -19,6 +25,11 @@
     tags:
       - osp.smoke
 
+  - name: debug result
+    debug:
+      var: webpage
+    tags:
+      - osp.smoke
   - name: Fail if 'Ansible has done its job' is not in the page content
     fail:
     when: "'Ansible has done its job' not in webpage.results[0].content"
