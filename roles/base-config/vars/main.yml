@@ -1,3 +1,4 @@
 ---
 # vars file for base-config
-own_repo_path=https://github.com/m1991k/bad-ansible.git
+own_repo_path: http://www.opentlc.com/download/ansible_bootcamp/repo/internal.repo
+#own_repo_path: https://github.com/m1991k/bad-ansible.git
