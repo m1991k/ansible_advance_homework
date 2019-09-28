@@ -1,5 +1,5 @@
 ---
 # vars file for base-config
 #own_repo_path: http://www.opentlc.com/download/ansible_bootcamp/repo/internal.repo
-own_repo_path: /etc/yum.repos.d/internal.repo
+own_repo_path: http://192.168.0.5/repos
 #own_repo_path: https://github.com/m1991k/bad-ansible.git
